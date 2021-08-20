@@ -93,5 +93,8 @@
       }
     }
   },
-  "defaultProject": "intro-storybook-angular-template"
+  "defaultProject": "intro-storybook-angular-template",
+  "cli": {
+    "analytics": "557e35a7-f7dd-4f08-9990-0864194e5da0"
+  }
 }
