@@ -10,15 +10,18 @@ import { CommonModule } from '@angular/common';
 import { TaskComponent } from '../task/task.component';
 import * as TaskStories from '../task/task.component.stories';
 import { PureTaskListComponent } from './pure-task-list.component';
+import figmaDecorator from 'storybook-figma';
 
 export default {
   component: PureTaskListComponent,
   decorators: [
     moduleMetadata({
-      //👇 Imports both components to allow component composition with Storybook
       declarations: [PureTaskListComponent, TaskComponent],
       imports: [CommonModule],
     }),
+    // figmaDecorator({
+    //   url: 'https://www.figma.com/file/PKABF3OEOeiC2AJJhWOJi0/Proof-of-Concept',
+    // }),
     //👇 Wraps our stories with a decorator
     componentWrapperDecorator(
       (story) => `<div style="margin: 3em">${story}</div>`
