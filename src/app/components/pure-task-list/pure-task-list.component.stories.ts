@@ -4,13 +4,10 @@ import {
   Meta,
   componentWrapperDecorator,
 } from '@storybook/angular';
-
 import { CommonModule } from '@angular/common';
-
 import { TaskComponent } from '../task/task.component';
 import * as TaskStories from '../task/task.component.stories';
 import { PureTaskListComponent } from './pure-task-list.component';
-import figmaDecorator from 'storybook-figma';
 
 export default {
   component: PureTaskListComponent,

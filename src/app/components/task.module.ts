@@ -10,13 +10,13 @@ import { InboxScreenComponent } from './inbox-screen/inbox-screen.component';
 
 @NgModule({
   imports: [CommonModule, NgxsModule.forFeature([TasksState])],
-  exports: [TaskComponent, TaskListComponent, InboxScreenComponent],
+  exports: [TaskListComponent],
   declarations: [
     TaskComponent,
     TaskListComponent,
     PureTaskListComponent,
-    PureInboxScreenComponent,
-    InboxScreenComponent,
+    // PureInboxScreenComponent,
+    // InboxScreenComponent,
   ],
   providers: [],
 })
