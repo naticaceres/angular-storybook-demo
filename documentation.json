@@ -1100,12 +1100,6 @@
                     "type": "declarations",
                     "elements": [
                         {
-                            "name": "InboxScreenComponent"
-                        },
-                        {
-                            "name": "PureInboxScreenComponent"
-                        },
-                        {
                             "name": "PureTaskListComponent"
                         },
                         {
@@ -1124,7 +1118,7 @@
                     "type": "exports",
                     "elements": [
                         {
-                            "name": "InboxScreenComponent"
+                            "name": "TaskListComponent"
                         }
                     ]
                 },

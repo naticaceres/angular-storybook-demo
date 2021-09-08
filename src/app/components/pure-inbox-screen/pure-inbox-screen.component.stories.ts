@@ -31,6 +31,10 @@ Default.parameters = {
     type: 'figma',
     url: 'https://www.figma.com/file/PKABF3OEOeiC2AJJhWOJi0/Proof-of-Concept',
   },
+  abstract: {
+    url:
+      'https://share.goabstract.com/1d0247ec-0326-4627-86f0-e76e5d543a50?collectionLayerId=d9720214-650d-434c-abf5-cba86fe707b7&mode=design',
+  },
 };
 
 export const Error = Template.bind({});
