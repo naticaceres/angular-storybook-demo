@@ -16,9 +16,6 @@ export default {
       declarations: [PureTaskListComponent, TaskComponent],
       imports: [CommonModule],
     }),
-    // figmaDecorator({
-    //   url: 'https://www.figma.com/file/PKABF3OEOeiC2AJJhWOJi0/Proof-of-Concept',
-    // }),
     //👇 Wraps our stories with a decorator
     componentWrapperDecorator(
       (story) => `<div style="margin: 3em">${story}</div>`
