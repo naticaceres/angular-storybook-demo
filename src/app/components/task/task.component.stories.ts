@@ -23,7 +23,7 @@ export const actionsData = {
   onArchiveTask: action('onArchiveTask'),
 };
 
-const Template: Story<TaskComponent> = args => ({
+const Template: Story<TaskComponent> = (args) => ({
   props: {
     ...args,
     onPinTask: actionsData.onPinTask,

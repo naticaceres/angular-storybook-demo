@@ -1163,7 +1163,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/pure-task-list/pure-task-list.component.stories.ts",
+                "file": "src/app/components/task/task.component.stories.ts",
                 "type": "",
                 "defaultValue": "Template.bind({})"
             },
@@ -1179,7 +1179,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/task/task.component.stories.ts",
+                "file": "src/app/components/pure-task-list/pure-task-list.component.stories.ts",
                 "type": "",
                 "defaultValue": "Template.bind({})"
             },
@@ -1339,9 +1339,9 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/pure-task-list/pure-task-list.component.stories.ts",
-                "type": "Story<PureTaskListComponent>",
-                "defaultValue": "(args) => ({\r\n  props: {\r\n    ...args,\r\n    onPinTask: TaskStories.actionsData.onPinTask,\r\n    onArchiveTask: TaskStories.actionsData.onArchiveTask,\r\n  },\r\n})"
+                "file": "src/app/components/task/task.component.stories.ts",
+                "type": "Story<TaskComponent>",
+                "defaultValue": "(args) => ({\r\n  props: {\r\n    ...args,\r\n    onPinTask: actionsData.onPinTask,\r\n    onArchiveTask: actionsData.onArchiveTask,\r\n  },\r\n})"
             },
             {
                 "name": "Template",
@@ -1355,9 +1355,9 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/task/task.component.stories.ts",
-                "type": "Story<TaskComponent>",
-                "defaultValue": "args => ({\r\n  props: {\r\n    ...args,\r\n    onPinTask: actionsData.onPinTask,\r\n    onArchiveTask: actionsData.onArchiveTask,\r\n  },\r\n})"
+                "file": "src/app/components/pure-task-list/pure-task-list.component.stories.ts",
+                "type": "Story<PureTaskListComponent>",
+                "defaultValue": "(args) => ({\r\n  props: {\r\n    ...args,\r\n    onPinTask: TaskStories.actionsData.onPinTask,\r\n    onArchiveTask: TaskStories.actionsData.onArchiveTask,\r\n  },\r\n})"
             },
             {
                 "name": "WithPinnedTasks",
@@ -1429,7 +1429,33 @@
                     "subtype": "variable",
                     "file": "src/app/components/task/task.component.stories.ts",
                     "type": "Story<TaskComponent>",
-                    "defaultValue": "args => ({\r\n  props: {\r\n    ...args,\r\n    onPinTask: actionsData.onPinTask,\r\n    onArchiveTask: actionsData.onArchiveTask,\r\n  },\r\n})"
+                    "defaultValue": "(args) => ({\r\n  props: {\r\n    ...args,\r\n    onPinTask: actionsData.onPinTask,\r\n    onArchiveTask: actionsData.onArchiveTask,\r\n  },\r\n})"
+                }
+            ],
+            "src/app/components/pure-inbox-screen/pure-inbox-screen.component.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/pure-inbox-screen/pure-inbox-screen.component.stories.ts",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Error",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/pure-inbox-screen/pure-inbox-screen.component.stories.ts",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/pure-inbox-screen/pure-inbox-screen.component.stories.ts",
+                    "type": "Story<PureInboxScreenComponent>",
+                    "defaultValue": "(args) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/app/components/pure-task-list/pure-task-list.component.stories.ts": [
@@ -1472,32 +1498,6 @@
                     "file": "src/app/components/pure-task-list/pure-task-list.component.stories.ts",
                     "type": "",
                     "defaultValue": "Template.bind({})"
-                }
-            ],
-            "src/app/components/pure-inbox-screen/pure-inbox-screen.component.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/pure-inbox-screen/pure-inbox-screen.component.stories.ts",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Error",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/pure-inbox-screen/pure-inbox-screen.component.stories.ts",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/pure-inbox-screen/pure-inbox-screen.component.stories.ts",
-                    "type": "Story<PureInboxScreenComponent>",
-                    "defaultValue": "(args) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/environments/environment.prod.ts": [
